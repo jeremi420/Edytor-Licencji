@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "debug": "registry:npm/debug#2.0.0+20170504163145"
+  },
+  "globalDependencies": {
+    "index": "file:C:\\Users\\jeremiw\\Documents\\projekt\\typings\\index.d.ts"
+  }
+}
