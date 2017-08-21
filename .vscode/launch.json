@@ -7,7 +7,7 @@
           "type": "chrome",
           "request": "attach",
           "port": 9222,
-          "url": "file:///C:/Users/jeremiw/Documents/projekt/test.html",
+          "url": "file:///C:/Users/jeremiw/Documents/projekt/powiazania/index.html",
           "webRoot": "${workspaceRoot}"
       }
     ]

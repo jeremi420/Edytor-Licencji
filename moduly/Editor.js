@@ -24,19 +24,6 @@ function AddRow(){
     EditedRows.push[newRowId];
     Grid.selectRowById(newRowId);
 }
-function JSONArrayFromUrl(url, callback){
-    let array = [], row = [];
-    $.getJSON(url, function(JSONData){
-        $.each(JSONData,function(index,object){
-            for(let key in object){
-                row.push(object[key]);
-            }
-            array.push(row);
-            row = [];
-        });
-        callback(array);
-    }).fail(function(){alert("download json data failed!");})
-}
 
 function SaveChanges(){
     $.each(EditedRows,function(id,rId){
@@ -70,7 +57,7 @@ function SaveChanges(){
         });
     });
 }
-
+upuprawnieni
 function getRowData(rId){
     let array = [];
     for(let i = 0;i<Grid.getColumnsNum();i++){

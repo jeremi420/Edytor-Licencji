@@ -1,2 +1,2 @@
-"# Edytor-Licencji" 
-"# Edytor-Licencji" 
+"# Edytor-Licencji"; 
+"# Edytor-Licencji"; 
