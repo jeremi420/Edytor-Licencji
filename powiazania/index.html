@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <script type="text/javascript" src="../libs/underscore.js"></script>
+    <script type="text/javascript" src="../node_modules/angular/angular.js"></script>
     <script type="text/javascript" src="../libs/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="../libs/backbone.js"></script>
     <script type="text/javascript" src="../dhtmlxSuite_v51_pro_eval/codebase/dhtmlx.js"></script>
@@ -23,6 +24,9 @@
         <div id="moduly"></div>
         <div id="powiazania"></div>
         <div id="uprawnienia"></div>
+        <button onclick="copySelected()" id="copyButton"><---</button>
+        <button onclick="saveChanges()">zapisz</button>
+        <div id="info"></div>
     </section>
 </body>
 
